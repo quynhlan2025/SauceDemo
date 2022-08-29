@@ -1,0 +1,203 @@
+{
+  "uid" : "7fd3cc9732af03ee",
+  "name" : "Verify order successfull",
+  "fullName" : "tests.order.test_order.OrderTest#test_order_successful",
+  "historyId" : "5de075c390d0aeaec04258bc106b84b9",
+  "time" : {
+    "start" : 1661742883286,
+    "stop" : 1661742887986,
+    "duration" : 4700
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_OrderTest",
+    "time" : {
+      "start" : 1661742883286,
+      "stop" : 1661742883286,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "before_all_tests",
+    "time" : {
+      "start" : 1661742873532,
+      "stop" : 1661742879437,
+      "duration" : 5905
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "before_test_order",
+    "time" : {
+      "start" : 1661742883029,
+      "stop" : 1661742883286,
+      "duration" : 257
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "First fullfill user name/Password ",
+      "time" : {
+        "start" : 1661742883377,
+        "stop" : 1661742883507,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "First fullfill first name /last name/ passcode ",
+      "time" : {
+        "start" : 1661742885581,
+        "stop" : 1661742885872,
+        "duration" : 291
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : " Verify title of product ",
+      "time" : {
+        "start" : 1661742885927,
+        "stop" : 1661742885927,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : " Verify  price of price in Card View  ",
+      "time" : {
+        "start" : 1661742885980,
+        "stop" : 1661742885980,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_OrderTest::0",
+    "time" : {
+      "start" : 1661742887986,
+      "stop" : 1661742887986,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "before_test_order::0",
+    "time" : {
+      "start" : 1661742887987,
+      "stop" : 1661742887988,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('before_all_tests')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.order"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "OrderTest"
+  }, {
+    "name" : "host",
+    "value" : "Quynhs-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "56648-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.order.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('before_all_tests')" ]
+  },
+  "source" : "7fd3cc9732af03ee.json",
+  "parameterValues" : [ ]
+}

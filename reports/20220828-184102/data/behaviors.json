@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Verify test_login_successful",
+    "uid" : "e0cf31e9ce2f7839",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1661686864709,
+      "stop" : 1661686866237,
+      "duration" : 1528
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify order successfull",
+    "uid" : "354ec06dd82faa20",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1661686867234,
+      "stop" : 1661686872106,
+      "duration" : 4872
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

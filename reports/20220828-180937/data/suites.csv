@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Aug 28 18:09:42 ICT 2022","Sun Aug 28 18:09:43 ICT 2022","1592","tests.authentication","test_login","LoginTest","","","Verify test_login_successful",""

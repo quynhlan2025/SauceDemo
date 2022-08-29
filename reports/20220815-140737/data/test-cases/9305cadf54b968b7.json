@@ -1,0 +1,125 @@
+{
+  "uid" : "9305cadf54b968b7",
+  "name" : "Verify test_login_invalid_password",
+  "fullName" : "tests.authentication.test_login.LoginTest#test_login_invalid_password",
+  "historyId" : "9d61c7c3183cd9436ec60c100620a8c7",
+  "time" : {
+    "start" : 1660547273723,
+    "stop" : 1660547277486,
+    "duration" : 3763
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_LoginTest",
+    "time" : {
+      "start" : 1660547273721,
+      "stop" : 1660547273721,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "before_all_tests",
+    "time" : {
+      "start" : 1660547258101,
+      "stop" : 1660547273720,
+      "duration" : 15619
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8f0c658b6074c070",
+      "name" : "screenshot",
+      "source" : "8f0c658b6074c070.png",
+      "type" : "image/png",
+      "size" : 769161
+    }, {
+      "uid" : "2577afed2bbe7f5b",
+      "name" : "log",
+      "source" : "2577afed2bbe7f5b.txt",
+      "type" : "text/plain",
+      "size" : 296
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_LoginTest::0",
+    "time" : {
+      "start" : 1660547278150,
+      "stop" : 1660547278150,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('before_all_tests')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Quynhs-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "47015-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('before_all_tests')" ]
+  },
+  "source" : "9305cadf54b968b7.json",
+  "parameterValues" : [ ]
+}

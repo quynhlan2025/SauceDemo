@@ -1,0 +1,3 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 103.0.5060
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/quynhlan/.wdm/drivers/chromedriver/mac64_m1/103.0.5060/chromedriver] found in cache

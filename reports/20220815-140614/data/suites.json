@@ -1,0 +1,41 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.authentication",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "LoginTest",
+        "children" : [ {
+          "name" : "Verify test_login_invalid_password",
+          "uid" : "b82b001e151b6425",
+          "parentUid" : "e35a392514add4e22774fdd1b3934655",
+          "status" : "passed",
+          "time" : {
+            "start" : 1660547191452,
+            "stop" : 1660547194683,
+            "duration" : 3231
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Verify test_login_successful",
+          "uid" : "6f4a2bfc7b1804fc",
+          "parentUid" : "e35a392514add4e22774fdd1b3934655",
+          "status" : "passed",
+          "time" : {
+            "start" : 1660547194685,
+            "stop" : 1660547195347,
+            "duration" : 662
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e35a392514add4e22774fdd1b3934655"
+      } ],
+      "uid" : "8f5aea490f35e49d7d11f0b1e0a2136f"
+    } ],
+    "uid" : "3afbdd6e5d3443b164335f404a08107e"
+  } ],
+  "name" : "suites"
+}

@@ -1,0 +1,29 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.collection",
+    "children" : [ {
+      "name" : "test_date",
+      "children" : [ {
+        "name" : "BoardItemDateTest",
+        "children" : [ {
+          "name" : "test_add_new_board",
+          "uid" : "4a8f354318a4b1a8",
+          "parentUid" : "5760e58956fccba64307c8bf6788a5f1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1659342450288,
+            "stop" : 1659342520887,
+            "duration" : 70599
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5760e58956fccba64307c8bf6788a5f1"
+      } ],
+      "uid" : "de8abbcdfc0d762df3012338411075a2"
+    } ],
+    "uid" : "e233997e6fce04dd82173f31878ff5d7"
+  } ],
+  "name" : "suites"
+}

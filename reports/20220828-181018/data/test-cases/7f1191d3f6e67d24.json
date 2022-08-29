@@ -1,0 +1,96 @@
+{
+  "uid" : "7f1191d3f6e67d24",
+  "name" : "Verify order successfull",
+  "fullName" : "tests.order.test_order.OrderTest#test_order_successful",
+  "historyId" : "5de075c390d0aeaec04258bc106b84b9",
+  "time" : {
+    "start" : 1661685024602,
+    "stop" : 1661685024602,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: Element not found with locator id value 'user-name' after 10 seconds",
+  "statusTrace" : "element = ('id', 'user-name'), timeout = 10, wait = True\n\n    def find_element(element: tuple, timeout=DEFAULT_TIMEOUT, wait=True) -> WebElement:\n        \"\"\"\n        Find an element existing in DOM with a timeout in seconds.\n        :return: WebElement if found\n        :raise: NoSuchElementException if not found\n        \"\"\"\n        driver = getattr(builtins, \"driver\")\n        locator = element[0]\n        value = element[1]\n        try:\n            if wait:\n>               return WebDriverWait(driver, timeout).until(exc.visibility_of_element_located((locator, value)))\n\nsrc/utils/element_util.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"7f3979cc640fc6d4a9ad6d0b048a3605\")>\nmethod = <function visibility_of_element_located.<locals>._predicate at 0x10489f5b0>, message = ''\n\n    def until(self, method, message: str = \"\"):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: \nE       Stacktrace:\nE       0   chromedriver                        0x0000000100d36ae0 chromedriver + 3828448\nE       1   chromedriver                        0x0000000100ccbf1c chromedriver + 3391260\nE       2   chromedriver                        0x00000001009c4fcc chromedriver + 217036\nE       3   chromedriver                        0x00000001009f4b7c chromedriver + 412540\nE       4   chromedriver                        0x0000000100a1db2c chromedriver + 580396\nE       5   chromedriver                        0x00000001009ea010 chromedriver + 368656\nE       6   chromedriver                        0x0000000100d0c39c chromedriver + 3654556\nE       7   chromedriver                        0x0000000100d0fc4c chromedriver + 3669068\nE       8   chromedriver                        0x0000000100d1414c chromedriver + 3686732\nE       9   chromedriver                        0x0000000100d10654 chromedriver + 3671636\nE       10  chromedriver                        0x0000000100ceeb40 chromedriver + 3533632\nE       11  chromedriver                        0x0000000100d28414 chromedriver + 3769364\nE       12  chromedriver                        0x0000000100d28578 chromedriver + 3769720\nE       13  chromedriver                        0x0000000100d3d0f0 chromedriver + 3854576\nE       14  libsystem_pthread.dylib             0x00000001bf6b626c _pthread_start + 148\nE       15  libsystem_pthread.dylib             0x00000001bf6b108c thread_start + 8\n\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/support/wait.py:90: TimeoutException\n\nDuring handling of the above exception, another exception occurred:\n\nrequest = <SubRequest 'before_test_order' for <TestCaseFunction test_order_successful>>\n\n    @pytest.fixture(autouse=False, scope=\"session\")\n    def before_test_order(request):\n        print(\"\\x00\")  # print a non-printable character to break a new line on console\n        logger.info(\"=== Before test suite collection\")\n        # TODO: Do something\n>       login_page.login(config[\"username\"], config[\"password\"])\n\ntests/conftest.py:70: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nsrc/pages/login.py:49: in login\n    self.type_user(username)\nsrc/pages/login.py:21: in type_user\n    send_keys(self.__USER_INPUT, username)\nsrc/utils/element_util.py:52: in send_keys\n    ele = find_element(element)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nelement = ('id', 'user-name'), timeout = 10, wait = True\n\n    def find_element(element: tuple, timeout=DEFAULT_TIMEOUT, wait=True) -> WebElement:\n        \"\"\"\n        Find an element existing in DOM with a timeout in seconds.\n        :return: WebElement if found\n        :raise: NoSuchElementException if not found\n        \"\"\"\n        driver = getattr(builtins, \"driver\")\n        locator = element[0]\n        value = element[1]\n        try:\n            if wait:\n                return WebDriverWait(driver, timeout).until(exc.visibility_of_element_located((locator, value)))\n            return driver.find_element(locator, value)\n        except Exception:\n            log = \"Element not found with locator %s value '%s' after %d seconds\" % (locator, value, timeout)\n>           raise NoSuchElementException(log)\nE           selenium.common.exceptions.NoSuchElementException: Message: Element not found with locator id value 'user-name' after 10 seconds\n\nsrc/utils/element_util.py:30: NoSuchElementException",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "before_all_tests",
+    "time" : {
+      "start" : 1661685018747,
+      "stop" : 1661685022529,
+      "duration" : 3782
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "before_test_order",
+    "time" : {
+      "start" : 1661685024602,
+      "stop" : 1661685035234,
+      "duration" : 10632
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: Element not found with locator id value 'user-name' after 10 seconds\n\n",
+    "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pluggy/_callers.py\", line 39, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/fixtures.py\", line 1111, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/fixtures.py\", line 883, in call_fixture_func\n    fixture_result = next(generator)\n  File \"/Users/quynhlan/Documents/1.Automation/2.Sample/Python/oxstreet_python/oxstreet_python/SauceDemo/tests/conftest.py\", line 70, in before_test_order\n    login_page.login(config[\"username\"], config[\"password\"])\n  File \"/Users/quynhlan/Documents/1.Automation/2.Sample/Python/oxstreet_python/oxstreet_python/SauceDemo/src/pages/login.py\", line 49, in login\n    self.type_user(username)\n  File \"/Users/quynhlan/Documents/1.Automation/2.Sample/Python/oxstreet_python/oxstreet_python/SauceDemo/src/pages/login.py\", line 21, in type_user\n    send_keys(self.__USER_INPUT, username)\n  File \"/Users/quynhlan/Documents/1.Automation/2.Sample/Python/oxstreet_python/oxstreet_python/SauceDemo/src/utils/element_util.py\", line 52, in send_keys\n    ele = find_element(element)\n  File \"/Users/quynhlan/Documents/1.Automation/2.Sample/Python/oxstreet_python/oxstreet_python/SauceDemo/src/utils/element_util.py\", line 30, in find_element\n    raise NoSuchElementException(log)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('before_all_tests')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.order"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "OrderTest"
+  }, {
+    "name" : "host",
+    "value" : "Quynhs-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "50563-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.order.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('before_all_tests')" ]
+  },
+  "source" : "7f1191d3f6e67d24.json",
+  "parameterValues" : [ ]
+}

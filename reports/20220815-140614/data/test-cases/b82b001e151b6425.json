@@ -1,0 +1,119 @@
+{
+  "uid" : "b82b001e151b6425",
+  "name" : "Verify test_login_invalid_password",
+  "fullName" : "tests.authentication.test_login.LoginTest#test_login_invalid_password",
+  "historyId" : "9d61c7c3183cd9436ec60c100620a8c7",
+  "time" : {
+    "start" : 1660547191452,
+    "stop" : 1660547194683,
+    "duration" : 3231
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "before_all_tests",
+    "time" : {
+      "start" : 1660547174493,
+      "stop" : 1660547191443,
+      "duration" : 16950
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_unittest_setUpClass_fixture_LoginTest",
+    "time" : {
+      "start" : 1660547191444,
+      "stop" : 1660547191444,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "13b1ac245ab1cc45",
+      "name" : "log",
+      "source" : "13b1ac245ab1cc45.txt",
+      "type" : "text/plain",
+      "size" : 296
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_LoginTest::0",
+    "time" : {
+      "start" : 1660547195347,
+      "stop" : 1660547195347,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('before_all_tests')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Quynhs-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "46808-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('before_all_tests')" ]
+  },
+  "source" : "b82b001e151b6425.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Verify test_login_invalid_password",
+    "uid" : "7bbe5f36a40c551b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1661742879450,
+      "stop" : 1661742881592,
+      "duration" : 2142
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify test_login_successful",
+    "uid" : "17bb1459f492438c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1661742881594,
+      "stop" : 1661742882453,
+      "duration" : 859
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify order successfull",
+    "uid" : "7fd3cc9732af03ee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1661742883286,
+      "stop" : 1661742887986,
+      "duration" : 4700
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

@@ -1,0 +1,31 @@
+[ {
+  "uid" : "17bb1459f492438c",
+  "name" : "Verify test_login_successful",
+  "time" : {
+    "start" : 1661742881594,
+    "stop" : 1661742882453,
+    "duration" : 859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bbe5f36a40c551b",
+  "name" : "Verify test_login_invalid_password",
+  "time" : {
+    "start" : 1661742879450,
+    "stop" : 1661742881592,
+    "duration" : 2142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fd3cc9732af03ee",
+  "name" : "Verify order successfull",
+  "time" : {
+    "start" : 1661742883286,
+    "stop" : 1661742887986,
+    "duration" : 4700
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

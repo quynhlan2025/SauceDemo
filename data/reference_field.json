@@ -1,0 +1,42 @@
+{
+  "tc01": {
+    "CollectionName": "Lan",
+    "board 1": {
+      "BoardName": "Board 1",
+      "Fields": [
+        {
+          "FieldType": "Reference",
+          "FieldName": "Reference",
+          "FieldAlias ": "Reference",
+          "LinkTo": {
+            "CollectionName": "Lan",
+            "BoardName": "board date",
+            "ListView": "Main View"
+          },
+          "Cell value": {
+            "RowName": "item 123"
+          }
+        },
+
+        {
+          "FieldType": "LookUp",
+          "FieldName": "Reference",
+          "FieldAlias ": "Reference",
+          "LinkTo": {
+            "CollectionName": "Lan",
+            "BoardName": "board date",
+            "ListView": "Main View"
+          },
+          "Cell value": {
+            "RowName": "item 123"
+          }
+        }
+      ]
+    },
+
+    "board 2": {
+      "BoardName": "Board 2"
+    }
+  }
+}
+

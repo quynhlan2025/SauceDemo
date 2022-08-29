@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Aug 29 10:14:41 ICT 2022","Mon Aug 29 10:14:42 ICT 2022","859","tests.authentication","test_login","LoginTest","","","Verify test_login_successful",""
+"passed","Mon Aug 29 10:14:39 ICT 2022","Mon Aug 29 10:14:41 ICT 2022","2142","tests.authentication","test_login","LoginTest","","","Verify test_login_invalid_password",""
+"passed","Mon Aug 29 10:14:43 ICT 2022","Mon Aug 29 10:14:47 ICT 2022","4700","tests.order","test_order","OrderTest","","","Verify order successfull",""

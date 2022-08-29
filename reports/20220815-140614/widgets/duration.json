@@ -1,0 +1,21 @@
+[ {
+  "uid" : "b82b001e151b6425",
+  "name" : "Verify test_login_invalid_password",
+  "time" : {
+    "start" : 1660547191452,
+    "stop" : 1660547194683,
+    "duration" : 3231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f4a2bfc7b1804fc",
+  "name" : "Verify test_login_successful",
+  "time" : {
+    "start" : 1660547194685,
+    "stop" : 1660547195347,
+    "duration" : 662
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

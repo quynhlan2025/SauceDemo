@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Quynhs-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "47015-MainThread",
+      "children" : [ {
+        "name" : "Verify test_login_successful",
+        "uid" : "d0710154ef03e92c",
+        "parentUid" : "fc589bb6666b78be8b928d8ab8705ecf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660547277488,
+          "stop" : 1660547278128,
+          "duration" : 640
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify test_login_invalid_password",
+        "uid" : "9305cadf54b968b7",
+        "parentUid" : "fc589bb6666b78be8b928d8ab8705ecf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660547273723,
+          "stop" : 1660547277486,
+          "duration" : 3763
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc589bb6666b78be8b928d8ab8705ecf"
+    } ],
+    "uid" : "b10d345dc662a66750ab301e42c7dc93"
+  } ]
+}

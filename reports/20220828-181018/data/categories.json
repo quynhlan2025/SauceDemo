@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: Element not found with locator id value 'user-name' after 10 seconds",
+      "children" : [ {
+        "name" : "Verify order successfull",
+        "uid" : "7f1191d3f6e67d24",
+        "parentUid" : "e0bfdf7cca117880ce5265625872233d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661685024602,
+          "stop" : 1661685024602,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0bfdf7cca117880ce5265625872233d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

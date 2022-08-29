@@ -1,0 +1,41 @@
+{
+  "a0a4d18b4e40e4dfc4ec783f120ffdc3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e004f874a4d2c9df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661685022536,
+        "stop" : 1661685024599,
+        "duration" : 2063
+      }
+    } ]
+  },
+  "5de075c390d0aeaec04258bc106b84b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f1191d3f6e67d24",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Element not found with locator id value 'user-name' after 10 seconds",
+      "time" : {
+        "start" : 1661685024602,
+        "stop" : 1661685024602,
+        "duration" : 0
+      }
+    } ]
+  }
+}

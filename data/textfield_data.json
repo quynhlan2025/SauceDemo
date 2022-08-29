@@ -1,0 +1,12 @@
+{
+    "board": [
+        {
+            "board_name": "Lan",
+            "field_type": "textfield"
+        },
+        {
+            "field_type": "Reference",
+            "value": ""
+        }
+    ]
+}

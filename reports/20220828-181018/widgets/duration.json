@@ -1,0 +1,21 @@
+[ {
+  "uid" : "e004f874a4d2c9df",
+  "name" : "Verify test_login_successful",
+  "time" : {
+    "start" : 1661685022536,
+    "stop" : 1661685024599,
+    "duration" : 2063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f1191d3f6e67d24",
+  "name" : "Verify order successfull",
+  "time" : {
+    "start" : 1661685024602,
+    "stop" : 1661685024602,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

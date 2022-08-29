@@ -1,0 +1,127 @@
+{
+  "uid" : "d0710154ef03e92c",
+  "name" : "Verify test_login_successful",
+  "fullName" : "tests.authentication.test_login.LoginTest#test_login_successful",
+  "historyId" : "a0a4d18b4e40e4dfc4ec783f120ffdc3",
+  "time" : {
+    "start" : 1660547277488,
+    "stop" : 1660547278128,
+    "duration" : 640
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <tests.authentication.test_login.LoginTest testMethod=test_login_successful>\n\n    def tearDown(self):  # After each test case\n        def list2reason(exc_list):  # function to process error/failure\n            if exc_list and exc_list[-1][0] is self:\n                return exc_list[-1][1]\n            return None\n    \n        result = self.defaultTestResult()  # get result of the test case\n        self._feedErrorsToResult(result, self._outcome.errors)\n        error = list2reason(result.errors)  # count the number of errors failed by script/code\n        failure = list2reason(result.failures)  # count the number of failures failed by test assertion\n        # Final result of the test case: no error, no failure\n        is_test_passed = not error and not failure\n    \n        elapsed_time = (datetime_util.current_time() - self.start_time).total_seconds()\n        logger.info(\"-----------\")\n        logger.info(\"Test status: PASSED\") if is_test_passed else logger.warning(\"Test status: FAILED\")\n        logger.info(\"Time taken : \" + datetime_util.pretty_time(elapsed_time))\n        for data in self.screenshot_binary_data:\n            allure.attach(name=\"screenshot\", body=data, attachment_type=allure.attachment_type.PNG)\n>       assert is_test_passed and self.failures == []\nE       AssertionError\n\ntests/__init__.py:54: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_LoginTest",
+    "time" : {
+      "start" : 1660547273721,
+      "stop" : 1660547273721,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "before_all_tests",
+    "time" : {
+      "start" : 1660547258101,
+      "stop" : 1660547273720,
+      "duration" : 15619
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <tests.authentication.test_login.LoginTest testMethod=test_login_successful>\n\n    def tearDown(self):  # After each test case\n        def list2reason(exc_list):  # function to process error/failure\n            if exc_list and exc_list[-1][0] is self:\n                return exc_list[-1][1]\n            return None\n    \n        result = self.defaultTestResult()  # get result of the test case\n        self._feedErrorsToResult(result, self._outcome.errors)\n        error = list2reason(result.errors)  # count the number of errors failed by script/code\n        failure = list2reason(result.failures)  # count the number of failures failed by test assertion\n        # Final result of the test case: no error, no failure\n        is_test_passed = not error and not failure\n    \n        elapsed_time = (datetime_util.current_time() - self.start_time).total_seconds()\n        logger.info(\"-----------\")\n        logger.info(\"Test status: PASSED\") if is_test_passed else logger.warning(\"Test status: FAILED\")\n        logger.info(\"Time taken : \" + datetime_util.pretty_time(elapsed_time))\n        for data in self.screenshot_binary_data:\n            allure.attach(name=\"screenshot\", body=data, attachment_type=allure.attachment_type.PNG)\n>       assert is_test_passed and self.failures == []\nE       AssertionError\n\ntests/__init__.py:54: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5b5823de9ab24c32",
+      "name" : "screenshot",
+      "source" : "5b5823de9ab24c32.png",
+      "type" : "image/png",
+      "size" : 54912
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_LoginTest::0",
+    "time" : {
+      "start" : 1660547278150,
+      "stop" : 1660547278150,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('before_all_tests')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.authentication"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Quynhs-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "47015-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.authentication.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('before_all_tests')" ]
+  },
+  "source" : "d0710154ef03e92c.json",
+  "parameterValues" : [ ]
+}

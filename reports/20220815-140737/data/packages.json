@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.authentication.test_login",
+    "children" : [ {
+      "name" : "Verify test_login_invalid_password",
+      "uid" : "9305cadf54b968b7",
+      "parentUid" : "fbf3f9b5c7f36de4d5872d578a5098be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660547273723,
+        "stop" : 1660547277486,
+        "duration" : 3763
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify test_login_successful",
+      "uid" : "d0710154ef03e92c",
+      "parentUid" : "fbf3f9b5c7f36de4d5872d578a5098be",
+      "status" : "failed",
+      "time" : {
+        "start" : 1660547277488,
+        "stop" : 1660547278128,
+        "duration" : 640
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.authentication.test_login"
+  } ]
+}

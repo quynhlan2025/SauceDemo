@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.collection.test_date",
+    "children" : [ {
+      "name" : "test_add_new_board",
+      "uid" : "4a8f354318a4b1a8",
+      "parentUid" : "41cd1dcd0a7fb2a4bae8942637e91cf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659342450288,
+        "stop" : 1659342520887,
+        "duration" : 70599
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.collection.test_date"
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "4a8f354318a4b1a8",
+  "name" : "test_add_new_board",
+  "time" : {
+    "start" : 1659342450288,
+    "stop" : 1659342520887,
+    "duration" : 70599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

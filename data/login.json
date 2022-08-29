@@ -1,0 +1,12 @@
+{
+  "tc01": {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "message": "secret_sauce"
+  },
+  "tc02": {
+    "username": "phat.ly@cubable.com",
+    "password": "123412345",
+    "message": "Epic sadface: Username and password do not match any user in this service"
+  }
+}
